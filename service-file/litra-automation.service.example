@@ -1,0 +1,9 @@
+[Unit]
+Description=Litra Lightbar Automation
+
+[Service]
+Type=simple
+ExecStart=PATH_TO_BINARY/logitechlitraautomation
+
+[Install]
+WantedBy=multi-user.target
